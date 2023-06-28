@@ -149,6 +149,12 @@ class BMM150:
 
     @property
     def measurements(self) -> Tuple[float, float, float, float]:
+        """
+        Return Magnetometer data and hall resistance.
+        This is Raw data. There are some code exposed from bosch in their
+        github to adjust this data, however this is not exposed in the
+        datasheet.
+        """
         raw_magx, raw_magy, raw_magz, raw_rhall = self._raw_data
 
         magx = raw_magx >> 3
@@ -160,6 +166,9 @@ class BMM150:
 
     @property
     def high_threshold(self) -> float:
+        """
+        High threshold value
+        """
         return self._high_threshold * 16
 
     @high_threshold.setter
@@ -168,6 +177,9 @@ class BMM150:
 
     @property
     def low_threshold(self) -> float:
+        """
+        Low threshold value
+        """
         return self._low_threshold * 16
 
     @low_threshold.setter
@@ -198,6 +210,9 @@ class BMM150:
 
     @property
     def status_interrupt(self):
+        """
+        Interrupt Status.
+        """
         data = self._status_interrupt
         highz = (data & 0x20) >> 5
         highy = (data & 0x10) >> 4

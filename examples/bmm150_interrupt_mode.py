@@ -18,4 +18,3 @@ while True:
     print(bmm.status_interrupt)
     print()
     time.sleep(0.5)
-
