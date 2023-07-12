@@ -24,4 +24,4 @@ Table of Contents
 .. toctree::
     :caption: Other Links
 
-    Download from GitHub <https://github.com/jposada202020/MciroPython_BMM150/releases/latest>
+    Download from GitHub <https://github.com/jposada202020/MicroPython_BMM150/releases/latest>

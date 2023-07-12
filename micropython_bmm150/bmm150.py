@@ -95,6 +95,8 @@ class BMM150:
 
     .. code-block:: python
 
+        magx, magy, magz, hall = bmm150.measurements
+
     """
 
     _device_id = RegisterStruct(_REG_WHOAMI, "B")

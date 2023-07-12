@@ -21,8 +21,6 @@ urls = {Homepage = "https://github.com/jposada202020/MicroPython_BMM150"}
 keywords = [
     "sensor",
     "micropython",
-    "bmm150",
-    "micropython",
     "driver",
     "bosch",
     "magnetometer",
