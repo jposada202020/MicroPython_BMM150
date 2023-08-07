@@ -38,7 +38,7 @@ To install directly using a WIFI capable board
 
 .. code-block:: shell
 
-    mip install github:jposada202020/MicroPython_BMM150
+    mip.install("github:jposada202020/MicroPython_BMM150")
 
 
 Installing Library Examples
@@ -54,7 +54,7 @@ To install directly using a WIFI capable board
 
 .. code-block:: shell
 
-    mip install github:jposada202020/MicroPython_BMM150/examples.json
+    mip.install("github:jposada202020/MicroPython_BMM150/examples.json")
 
 
 Installing from PyPI
