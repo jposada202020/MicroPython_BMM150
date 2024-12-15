@@ -1,27 +1,12 @@
-Introduction
-============
+⛔️ DEPRECATED
+===============
 
+This repository is no longer supported, please consider using alternatives.
 
-.. image:: https://readthedocs.org/projects/micropython-bmm150/badge/?version=latest
-    :target: https://micropython-bmm150.readthedocs.io/en/latest/
-    :alt: Documentation Status
+.. image:: http://unmaintained.tech/badge.svg
+  :target: http://unmaintained.tech
+  :alt: No Maintenance Intended
 
-
-.. image:: https://img.shields.io/badge/micropython-Ok-purple.svg
-    :target: https://micropython.org
-    :alt: micropython
-
-.. image:: https://img.shields.io/pypi/v/micropython-bmm150.svg
-    :alt: latest version on PyPI
-    :target: https://pypi.python.org/pypi/micropython-bmm150
-
-.. image:: https://static.pepy.tech/personalized-badge/micropython-bmm150?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Pypi%20Downloads
-    :alt: Total PyPI downloads
-    :target: https://pepy.tech/project/micropython-bmm150
-
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/psf/black
-    :alt: Code Style: Black
 
 MicroPython Driver for the Bosch BMM150 Magnetometer
 
